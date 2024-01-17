@@ -1,0 +1,15 @@
+{% set page_name = 'О нас' %}
+
+{% extends "layouts/main.layout.html" %} 
+
+{% block content %}
+    <div class="container">
+        <h1>О нас!</h1>
+        {% include "partials/subscribe.html" %}
+    </div>
+{% endblock %}
+
+{% block scripts %}
+    <script src="./node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+{% endblock %}
