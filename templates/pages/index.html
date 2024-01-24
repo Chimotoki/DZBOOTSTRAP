@@ -1,11 +1,119 @@
-{% set page_name = 'Home' %}
+{% set page_name = 'Картины' %}
 
 {% extends "layouts/main.layout.html" %} 
 
 {% block content %}
-    <div class="container">
-        <h1>Hello World!</h1>
+<div class="catalog-container">
+    <div class="sidebar">
+
     </div>
+    <div class="catalog">
+        <div class="catalog__header">
+            <div class="active-filter-list">
+
+            </div>
+            <div class="view-btn-list">
+                <div class="view-btn">
+                    <img src="./img/show_large_cards_icon.svg" alt="">
+                </div>
+
+                <div class="view-btn">
+                    <img src="./img/show_small_cards_icon.svg" alt="">
+                </div>
+            </div>
+        </div>
+        
+        <div class="catalog__body">                        
+            <div class="row">
+                <div class="col-6 col-visible">
+                    <div class="card">
+                        <img src="./img/catalog/2.png" alt="" class="card__image" />
+                        <p class="card__desc">Сундучник. Из серии "Русские типы" 1920</p>
+                    </div>
+                </div>
+                <div class="col-6 col-visible">
+                    <div class="card">
+                        <img src="./img/catalog/1.png" alt="" class="card__image" />
+                        <p class="card__desc">Булочник. Из серии "Русские типы" 1920</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-6 col-visible">
+                    <div class="card">
+                        <img src="./img/catalog/3.jpeg" alt="" class="card__image" />
+                        <p class="card__desc">Купец с купчихой
+                            1914</p>
+                    </div>
+                </div>
+                <div class="col-6 col-visible">
+                    <div class="card">
+                        <img src="./img/catalog/4.jpeg" alt="" class="card__image" />
+                        <p class="card__desc">Пасхальный обряд (Христосование)
+                            1916</p>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="row">
+                <div class="col-6 col-visible">
+                    <div class="card">
+                        <img src="./img/catalog/5.jpeg" alt="" class="card__image" />
+                        <p class="card__desc">Трактирщик. Из серии "Русские типы"
+                            1920</p>
+                    </div>
+                </div>
+                <div class="col-6 col-visible">
+                    <div class="card">
+                        <img src="./img/catalog/6.jpeg" alt="" class="card__image" />
+                        <p class="card__desc">Портрет Степана Лукича Никольского
+                            1901</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-6 col-visible">
+                    <div class="card">
+                        <img src="./img/catalog/7.jpeg" alt="" class="card__image" />
+                        <p class="card__desc">Монахиня
+                            1901</p>
+                    </div>
+                </div>
+                <div class="col-6 col-visible">
+                    <div class="card">
+                        <img src="./img/catalog/8.jpeg" alt="" class="card__image" />
+                        <p class="card__desc">Портрет артистки Т. В. Чижовой
+                            1924</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-6 col-visible">
+                    <div class="card">
+                        <img src="./img/catalog/9.jpeg" alt="" class="card__image" />
+                        <p class="card__desc">Портрет А. Н. Протасовой
+                            1900</p>
+                    </div>
+                </div>
+                <div class="col-6 col-visible">
+                    <div class="card">
+                        <img src="./img/catalog/10.jpeg" alt="" class="card__image" />
+                        <p class="card__desc">На террасе
+                            1906</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="catalog__pagination"></div>
+    </div>
+</div>
+</div>
+</div>
 {% endblock %}
 
 {% block scripts %}
